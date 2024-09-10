@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_propo_questions",
+  "info": {
+    "displayName": "Questions",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "proposals": {
+      "type": "component",
+      "repeatable": true,
+      "component": "quiz.proposal"
+    },
+    "answer": {
+      "type": "string"
+    }
+  }
+}
